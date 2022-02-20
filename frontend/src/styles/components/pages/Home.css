@@ -1,0 +1,46 @@
+.uno{
+    padding: 5px;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    width: 98%;
+    margin: auto;
+    text-align: justify;
+}
+.all{
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: 0px auto 0% auto;
+    height: auto;
+    float: center;
+    padding: 20px;
+}
+.nosotros{
+    padding: 5px;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    width: 98%;
+    margin: auto;
+    text-align: justify;
+}
+.contenedor{
+    background-color: #11052e;
+    width: 100%;
+    margin: auto;
+    margin-right: 0px;
+}
+.astronauta1{
+    float: left; 
+    width: 260px; 
+    padding-right: 7px;
+}
+#navedespegue1{
+    width: 100px; 
+    float: center; 
+    margin-left: 28em;
+    margin-right: auto;
+
+}
+.letrauno{
+    text-align: center;
+}

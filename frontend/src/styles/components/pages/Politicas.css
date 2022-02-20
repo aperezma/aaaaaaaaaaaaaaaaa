@@ -1,0 +1,14 @@
+.div{
+    background-color: black;
+}
+
+main{
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: 0px auto 0% auto;
+    height: auto;
+    float: center;
+    padding: 2em;
+    padding-bottom: 3em;
+}

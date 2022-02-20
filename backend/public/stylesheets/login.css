@@ -1,0 +1,91 @@
+header{
+    background-color: #11052e;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    color:  #FFE459;
+    -webkit-text-stroke: rgb(176, 181, 255) 5px solid;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+.reg-log{
+    font-size: 0.8em;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+
+}
+header a{
+    text-decoration: none;
+}
+.backend{
+    margin: 2.4em;
+    height: auto;
+    display: inline-flex;
+    font-size: 1em;
+    width: 30%;
+    justify-content: space-around;
+}
+.headerensi{
+    vertical-align: middle;
+    vertical-align: middle;
+    display: inline-flex;
+    width: 60%;
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    transform: rotate(360deg) 60seg;
+    
+    transform-origin: center;
+    -webkit-animation: 180s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+footer{
+    background-color: #11052e;
+    height: auto;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    color:  #FFE459;
+    -webkit-text-stroke: rgb(176, 181, 255) 5px solid;
+    margin-bottom: 0em;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #11052e;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    text-decoration: none;    
+}
+
+  .menu li {
+    width: auto;
+    height: 50px;
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+    margin-bottom: 0%;
+}
+body{
+    align-items: center;
+    background-image: url("../images/fondo4.jpg");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    padding: 0em;
+}

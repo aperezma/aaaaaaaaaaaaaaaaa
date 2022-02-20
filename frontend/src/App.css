@@ -1,0 +1,9 @@
+body{
+    align-items: center;
+    background-image: url("fondo4.jpg");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    padding: 0em;
+}

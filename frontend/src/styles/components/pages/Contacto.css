@@ -1,0 +1,25 @@
+form{
+    padding: 5px;
+    padding-bottom: 2,5;
+    padding-top: 2.5em;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    height: 30em;
+    vertical-align: middle;
+}
+.jeje{
+    padding: 0.8em;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    width: 98%;
+    margin: auto;
+    text-align: justify;
+}
+select{
+    width: 14em; 
+    height: 20px; 
+    text-align: center
+}

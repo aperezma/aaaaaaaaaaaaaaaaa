@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #11052e;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    text-decoration: none;    
+}
+
+  .menu li {
+    width: auto;
+    height: 50px;
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+    margin-bottom: 0%;
+}

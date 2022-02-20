@@ -1,0 +1,13 @@
+footer{
+    background-color: #11052e;
+    height: auto;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    color:  #FFE459;
+    -webkit-text-stroke: rgb(176, 181, 255) 5px solid;
+    margin-bottom: 0em;
+}
+

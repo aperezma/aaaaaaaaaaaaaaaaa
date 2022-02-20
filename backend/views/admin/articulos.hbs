@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container" style="margin:50px auto">
+        <div class="row">
+            <div class="col">
+                <p class="text-right">Hola {{ usuario }}</p>
+                 <a href="/admin/login/logout" class="btn btn-sm btn-danger">Cerrar sesión <i class="fa fa-sing-out"></i></a> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <h3>Lista de articulos</h3>
+ <div class="col-2 text-right">
+                <a href="/admin/agregar">Nuevo<i class="fad fa-file-plus"></i></a>
+            </div> 
+           
+        </div>
+    </div>
+ <tbody>
+     {{#each articulos}}
+     <tr>
+         <th scope="row"> {{ id }} </th>
+         <td> {{ titulo }} </td>
+         <td class="text-center">
+             <a href="/admin/editar" tittle="Editar" class="btn btn-sm btn-secondary"> <i class="fa fa-pencil"></i> </a>
+             <a href="/admin/eliminar" Title="Eliminar" class="btn btn-sm btn-secondary"> <i class="fa fa-trash"></i> </a>
+         </td>
+     </tr>
+    {{/each}}
+ </tbody>
+
+</body>
+</html>
